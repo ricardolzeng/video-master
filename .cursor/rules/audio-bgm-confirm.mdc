@@ -1,0 +1,13 @@
+---
+description: 成片声音必须先问用户用 synth 还是哪首 BGM；外部 BGM 默认不叠事件音
+alwaysApply: true
+---
+
+# 声音来源确认
+
+合片或重渲声音前，先向用户确认，不要默认沿用 vibe 事件合成轨。
+
+1. 问清：`synth`（仅 `events`→`score.wav`）还是 `bgm`（用户指定文件）？
+2. 选 `bgm` 时拿到具体路径；默认命令是 `--bgm <路径>`，**不要**加 `--with-sfx`。
+3. 只有用户明确要求保留 tick/chord 等事件音时，才使用 `--with-sfx`。
+4. 禁止擅自使用 MusicGen、参考片原曲或其它未确认文件充当配乐。
