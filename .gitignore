@@ -20,5 +20,4 @@ venv/
 # 虚拟环境与内嵌仓库
 .venv*/
 dtk/
-skills/vibe-knowledge-film/
 tools/TikTokDownloader/

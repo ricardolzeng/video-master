@@ -1,0 +1,5 @@
+# 成片感知。用仓库里的 .venv-perceive（Python 3.12），不要装进渲染用的 .venv。
+librosa
+opencv-python-headless
+paddlepaddle
+paddleocr
